@@ -1,0 +1,18 @@
+* { padding: 0; margin: 0; }
+.alert_product
+{
+	position: fixed; 
+	right: 0; 
+	bottom: 0; 
+	z-index: 1000; 
+	opacity: 0; 
+	transition: .5s ease
+}
+.alert_product.active
+{
+	opacity: 1;
+}
+.hidden
+{
+	display: none;
+}

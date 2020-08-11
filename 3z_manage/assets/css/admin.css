@@ -1,0 +1,60 @@
+* { padding: 0; margin: 0; }
+html, body{
+	padding: 0;
+	box-sizing: border-box;
+}
+.container, .container-fluid{
+	margin-top: 20px;
+}
+.navbar{
+	user-select: none !important;
+}
+.pagination{ user-select: none; }
+.msg{
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+	opacity: 0;
+	z-index: 10;
+}
+.input-edit{ margin-top: -20px }
+.img-responsive{
+	width: 50px;
+	height: 50px;
+}
+.icon a i{
+	color: #a59699;
+	font-size: 18px;
+	transition: .2s ease;
+}
+.icon a i:hover{
+	opacity: .5
+}
+.button-link.active{
+	display: block;
+	color: #fff;
+	background: #54D4F4
+}
+.btn-income{
+	margin-top: 20px
+}
+.btn-reset{
+	margin-top: 5px
+}
+.container-login{
+	user-select: none;
+	position: absolute;
+	margin: 0;
+	top: 0;
+	height: 100vh;
+	background: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: -1
+}
+.login-form .card{
+	width: 25rem
+}
